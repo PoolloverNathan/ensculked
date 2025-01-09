@@ -1,0 +1,49 @@
+{
+  "type": "origins:multiple",
+
+  "feature_renderer": {
+    "type": "origins:prevent_feature_render",
+    "features": [
+      "armor",
+      "elytra"
+    ]
+  },
+  "event_renderer": {
+    "type": "origins:prevent_game_event",
+    "events": [
+      "minecraft:step",
+      "minecraft:hit_ground",
+      "minecraft:equip",
+      "minecraft:block_place",
+      "minecraft:block_destroy",
+      "minecraft:container_open",
+      "minecraft:container_close",
+      "minecraft:swim"
+    ]
+  },
+  "sleep_renderer": {
+    "type": "origins:prevent_sleep",
+    "message": "You don't need sleep now, don't you?"
+  },
+
+  "effect_renderer": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:darkness"
+    ]
+  },
+
+  "elytra":
+  {
+    "type": "origins:prevent_elytra_flight",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "tellraw @s {\"text\": \"You are too heavy, try again later!\", \"color\": \"red\"}"
+    }
+  },
+
+
+
+  "name": "Host: Ensculked",
+  "description": "Since your host is made from sculk, most normal actions that would usually cause a vibration, don't. Aswell, some other stuff also doesn't act normally, because your biology is none existent. Don't forget! you are a pile of walking sculk."
+}

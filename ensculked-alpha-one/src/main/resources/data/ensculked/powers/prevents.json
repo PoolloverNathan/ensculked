@@ -1,0 +1,22 @@
+{
+  "type": "origins:multiple",
+  "orb_of_origin": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "origins:orb_of_origin"
+      }
+    }
+  },
+  "food": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  },
+
+
+  "name": "Soulless",
+  "description": "Your host lacks any sort of true origin, due to this, you are prevented from using a orb of origin, are classified as undead, and cannot eat food"
+}

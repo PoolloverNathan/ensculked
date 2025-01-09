@@ -1,0 +1,12 @@
+{
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "ensculked:souls",
+    "change": 1
+  },
+  "cooldown": 1,
+  "hidden": true,
+  "name": "hidden",
+  "description": "hidden"
+}

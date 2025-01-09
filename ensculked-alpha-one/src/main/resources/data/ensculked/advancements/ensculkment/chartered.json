@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "ensculked:soul_book"
+    },
+    "title": "Copying the homework",
+    "description": "Obtain a pact.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ensculked:ensculkment/transformation",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ensculked:soul_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [],
+  "sends_telemetry_event": true
+}

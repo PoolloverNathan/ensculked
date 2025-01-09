@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+
+  "sculk_colouring": {
+
+    "type": "apugli:entity_texture_overlay",
+    "texture_location": "ensculked:textures/item/sculk_infected.png",
+    "render_original_model": false
+  },
+
+  "spread": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function ensculked:sculk_spread"
+    },
+    "interval": 300
+  },
+
+  "sensor_stopper": {
+    "type": "origins:prevent_game_event",
+    "events": [
+      "minecraft:step",
+      "minecraft:hit_ground",
+      "minecraft:equip",
+      "minecraft:block_place",
+      "minecraft:block_destroy",
+      "minecraft:container_open",
+      "minecraft:container_close",
+      "minecraft:swim"
+    ]
+  },
+
+  "treason": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:origin",
+        "origin": "ensculked:pact",
+        "layer": "ensculked:pact"
+      }
+    }
+  }
+}

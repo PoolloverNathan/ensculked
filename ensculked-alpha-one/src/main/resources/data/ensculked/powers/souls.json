@@ -1,0 +1,16 @@
+{
+  "type": "origins:resource",
+  "min": 1,
+  "max": 20,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 17
+  },
+  "max_action": {
+    "type": "origins:execute_command",
+    "command": "advancement grant @s only ensculked:ensculkment/maxed_out"
+  },
+  "name": "Soul conductor",
+  "description": "Since your host is made from sculk, it is great at conducting souls. Due to this, you can use them for abilites, or increasing stats. Every time you kill a mob, you get one soul."
+}

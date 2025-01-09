@@ -1,0 +1,16 @@
+{
+  "item.ensculked.heart_catalyst": "Catalyst Core",
+  "item.ensculked.sculk_potion": "Ensculked Potion",
+  "item.ensculked.catalyst_fragment": "Catalyst Fragment",
+  "item.ensculked.warden_heart": "Severed Tendril",
+  "item.ensculked.soul_book": "Pact",
+  "item.ensculked.soul_snatcher": "Soul Snatcher",
+  "item.ensculked.player_soul": "Written Pact",
+  "item.ensculked.claw_of_d": "Claw of Damocles",
+  "item.ensculked.sculk_pile": "Pile of Sculk",
+  "item.ensculked.praetorian": "Praetorian",
+
+  "itemgroup.ensculked": "Ensculked",
+
+  "sounds.ensculked.claw_of_d_swing": "Claw of Damocles slash"
+}

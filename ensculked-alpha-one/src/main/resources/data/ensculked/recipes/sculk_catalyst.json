@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:sculk_catalyst"
+  }
+}

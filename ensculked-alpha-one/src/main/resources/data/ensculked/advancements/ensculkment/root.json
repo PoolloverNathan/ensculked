@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "catalyst": {
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "",
+      "color": "#001a66"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "ensculked:heart_catalyst"
+    },
+    "show_toast": false,
+    "title": "Ensculkment"
+  },
+  "requirements": [
+    [
+      "catalyst"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

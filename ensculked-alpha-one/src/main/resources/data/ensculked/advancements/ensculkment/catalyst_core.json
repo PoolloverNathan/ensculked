@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "title": "Perfected Perfection",
+    "description": "Succesfully replicate the core of a sculk catalyst.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ensculked:ensculkment/fragment",
+  "criteria": {
+    "creation_catalyst": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "ensculked:catalyst_heart"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "creation_catalyst"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ensculked:sculk_potion"
+    ]
+  },
+  "sends_telemetry_event": true
+}

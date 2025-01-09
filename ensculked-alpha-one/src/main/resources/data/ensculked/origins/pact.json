@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "ensculked:pact_resistant",
+    "ensculked:tooltips",
+    "ensculked:claw_abilities",
+    "ensculked:team_join",
+    "ensculked:praetorian_abilities"
+  ],
+  "icon": "ensculked:soul_book",
+  "order": 10,
+  "impact": 1,
+  "unchoosable": true,
+  "name": "Pact",
+  "description": "You have sold your soul to a Ensculked."
+}

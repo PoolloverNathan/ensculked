@@ -1,0 +1,19 @@
+{
+  "type": "origins:multiple",
+
+  "event_renderer": {
+    "type": "origins:prevent_game_event",
+    "events": [
+      "minecraft:step",
+      "minecraft:hit_ground",
+      "minecraft:equip",
+      "minecraft:block_place",
+      "minecraft:block_destroy",
+      "minecraft:container_open",
+      "minecraft:container_close",
+      "minecraft:swim"
+    ]
+  },
+
+  "hidden": true
+}

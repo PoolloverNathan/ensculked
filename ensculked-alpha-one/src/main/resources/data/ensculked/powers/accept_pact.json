@@ -1,0 +1,38 @@
+{
+
+  "type": "origins:action_on_item_use",
+  "trigger": "instant",
+
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.zombie_villager.converted"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function ensculked:accept_pact"
+      }
+    ]
+  },
+
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "ensculked:soul_book"
+    }
+  },
+
+  "name": "if thou seeing this",
+  "description": "Please report as a bug to @valkire_was_taken on discord",
+  "hidden": true
+}

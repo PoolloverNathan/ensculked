@@ -1,0 +1,11 @@
+{
+  "loading_priority": 10,
+  "powers": [
+    "ensculked:use_heart"
+  ],
+  "icon": {
+    "item": "minecraft:player_head"
+  },
+  "order": 0,
+  "impact": 0
+}

@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"ensculked:specter_wander",
+		"ensculked:death_prevention",
+		"ensculked:snatcher_recipe",
+		"ensculked:souls",
+		"ensculked:soul_snatching",
+		"ensculked:health_host_souls",
+		"ensculked:hunger_overhaul",
+		"ensculked:prevent_features",
+		"ensculked:ensculked_cosmetic",
+		"ensculked:pact_offer",
+		"ensculked:pact_invlunerable",
+		"ensculked:tooltips",
+		"ensculked:claw_abilities",
+		"ensculked:prevents",
+		"ensculked:team_join",
+		"ensculked:praetorian_abilities"
+	],
+	"icon": "minecraft:sculk",
+	"order": 10,
+	"impact": 3,
+	"unchoosable": true,
+	"name": "Ensculked",
+	"description": "Humans whom have torn out their own soul and gifted with the power to travel between bodies, The ensculked do not actually have a physical form. Instead, they possess sculk to form a body. Note: Made for multiplayer, some features might not work for singleplayer."
+}

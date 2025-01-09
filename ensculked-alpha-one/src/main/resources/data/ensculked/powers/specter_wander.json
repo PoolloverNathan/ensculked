@@ -1,0 +1,42 @@
+{
+  "type": "origins:multiple",
+
+  "revival": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function ensculked:revive"
+    },
+    "interval": 100,
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:offset",
+        "condition": {
+          "type": "origins:block",
+          "block": "minecraft:sculk"
+        },
+        "y": 1
+      }
+    }
+  },
+
+  "particles": {
+  "type": "origins:particle",
+  "particle": "minecraft:soul_fire_flame",
+  "frequency": 5,
+    "visible_in_first_person": false,
+    "visible_while_invisible": true,
+    "spread": {
+      "x": 0.25, "y": 0.5, "z": 0.25
+    },
+    "condition": {
+      "type": "origins:gamemode",
+      "gamemode": "spectator"
+    }
+  },
+
+  "name": "specter wander",
+  "description": "hidden",
+  "hidden": true
+}

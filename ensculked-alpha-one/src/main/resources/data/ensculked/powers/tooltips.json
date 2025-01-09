@@ -1,0 +1,28 @@
+{
+  "type": "origins:multiple",
+
+  "claw": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "ensculked:claw_of_d"
+      }
+    },
+    "text": "Press right click to dash. Has lifesteal."
+},
+
+  "praetorian": {
+    "type": "origins:tooltip",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "ensculked:praetorian"
+      }
+    },
+    "text": "Hitting entities will inject sculk tumours into them, infecting them over time eventually turning them into infected."
+  },
+
+  "hidden": true
+
+}

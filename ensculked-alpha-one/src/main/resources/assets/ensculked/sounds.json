@@ -1,0 +1,9 @@
+{
+  "claw_of_d_swing": {
+    "subtitle": "sounds.ensculked.claw_of_d_swing",
+    "sounds": [
+      "ensculked:claw_of_d_slash_1",
+      "ensculked:claw_of_d_slash_2"
+    ]
+  }
+}

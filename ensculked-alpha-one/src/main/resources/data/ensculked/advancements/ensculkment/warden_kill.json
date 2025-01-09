@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "ensculked:warden_heart"
+    },
+    "title": "Guardians of the cities",
+    "description": "Kill a warden and get one of it's tendrils",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ensculked:ensculkment/root",
+  "criteria": {
+    "warden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ensculked:warden_heart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warden"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ensculked:catalyst_heart"
+    ]
+  },
+  "sends_telemetry_event": true
+}

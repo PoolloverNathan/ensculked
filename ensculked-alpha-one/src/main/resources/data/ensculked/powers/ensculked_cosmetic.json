@@ -1,0 +1,41 @@
+{
+  "type": "origins:multiple",
+
+  "sculk_skin": {
+
+    "type": "apugli:entity_texture_overlay",
+    "texture_location": "ensculked:textures/item/sculk_skin_regular.png",
+    "show_first_person": true,
+    "render_original_model": false,
+    "render_player_outer_layer": false,
+    "condition": {
+      "type": "apugli:player_model_type",
+      "model_type": "default"
+    }
+  },
+
+  "movement_death": {
+
+  "type": "apugli:custom_death_sound",
+  "muted": true
+
+  },
+  "movement_step": {
+  "type": "apugli:custom_footstep",
+  "sound": "minecraft:block.sculk.step"
+  },
+  "movement_hurt": {
+  "type": "apugli:custom_hurt_sound",
+  "sound": "minecraft:block.sculk.spread"
+  },
+  "prevent_label": {
+  "type": "apugli:prevent_label_render"
+  },
+  "gui": {
+      "type": "origins:status_bar_texture",
+      "texture": "ensculked:textures/gui/icons.png"
+  },
+
+  "name": "Host: Nonplayer",
+  "description": "Since your host is not a player, some things may change, such as nametags not showing, different sounds. And so on..."
+}

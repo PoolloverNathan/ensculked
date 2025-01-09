@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ZZZ",
+    "ZIZ",
+    "ZZZ"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "Z": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:reinforced_deepslate",
+    "count": 1
+  }
+}

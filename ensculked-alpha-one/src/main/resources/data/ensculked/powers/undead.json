@@ -1,0 +1,8 @@
+{
+  "type": "origins:multiple",
+  "undeath": {
+  "type": "origins:entity_group",
+  "group": "undead"
+  },
+  "hidden": true
+}

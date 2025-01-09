@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ensculked:warden_heart"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    },
+    {
+      "item": "ensculked:catalyst_fragment"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "ensculked:heart_catalyst"
+  }
+}

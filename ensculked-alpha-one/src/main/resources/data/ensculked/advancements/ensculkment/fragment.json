@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ensculked:catalyst_fragment"
+    },
+    "title": "Sacred Gardens",
+    "description": "Destroy a sculk catalyst and obtain a fragment.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ensculked:ensculkment/root",
+  "criteria": {
+    "fragment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ensculked:catalyst_fragment"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fragment"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ensculked:catalyst_heart",
+      "ensculked:sculk_catalyst"
+    ]
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "auto_choose": true,
+  "default_origin": "ensculked:pactless",
+  "hidden": true,
+  "loading_priority": 10,
+  "origins": [
+    "ensculked:pact",
+    "ensculked:pactless"
+  ],
+  "name": "Pact",
+  "missing_name": "Pact",
+  "missing_description": "You currently don't have a Pact selected."
+}

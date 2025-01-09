@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:sculk"
+  },
+  "result": "ensculked:sculk_pile",
+  "count": 4
+}

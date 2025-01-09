@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ensculked",
+	"version": "${version}",
+	"name": "Ensculked",
+	"description": "gather the souls of others for power",
+	"authors": [
+		"Sculkman2009"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ensculked/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sculkman.ensculked.Ensculked"
+		],
+		"client": [
+			"com.sculkman.ensculked.EnsculkedModClient"
+		],
+		"fabric-datagen": [
+			"com.sculkman.ensculked.EnsculkedDataGenerator"
+		]
+	},
+	"mixins": [
+		"ensculked.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

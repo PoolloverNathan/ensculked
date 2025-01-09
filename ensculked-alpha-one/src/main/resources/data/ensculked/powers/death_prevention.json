@@ -1,0 +1,15 @@
+{
+  "type": "origins:prevent_death",
+  "damage_condition": {
+    "type": "origins:amount",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function ensculked:on_death"
+  },
+  "hidden": false,
+  "name": "Spectre",
+  "description": "Since you lack a physical body, you cannot die properly (without permakills). Instead, when you die, your body gets destroyed and you must seek out some sculk to get your host reconstructed."
+}

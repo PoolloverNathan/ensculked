@@ -1,0 +1,13 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "function ensculked:infection_finish"
+      }
+    ]
+  },
+  "interval": 24000
+}

@@ -1,0 +1,14 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "team join ensculked.ensculked @s"
+      }
+    ]
+  },
+  "interval": 20,
+  "hidden": true
+}

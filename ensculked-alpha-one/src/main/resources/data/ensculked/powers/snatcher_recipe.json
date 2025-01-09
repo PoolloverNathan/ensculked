@@ -1,0 +1,108 @@
+{
+  "type": "origins:multiple",
+
+  "snatcher": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shaped",
+      "id": "ensculked:snatcher_recipe/snatcherrecipe",
+      "pattern": [
+        " ##",
+        "yx#",
+        "yy "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:sculk"
+        },
+        "y": {
+          "item": "ensculked:catalyst_fragment"
+        },
+        "x": {
+          "item": "ensculked:player_soul"
+        }
+      },
+      "result": {
+        "item": "ensculked:soul_snatcher"
+      }
+    }
+  },
+
+  "pact": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "ensculked:snatcher_recipe/pactrecipe",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:writable_book"
+        },
+        {
+          "item": "ensculked:heart_catalyst"
+        }
+      ],
+      "result": {
+        "item": "ensculked:soul_book"
+      }
+    }
+  },
+
+  "claw": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shaped",
+      "id": "ensculked:snatcher_recipe/clawrecipe",
+      "pattern": [
+        " #o",
+        "yx#",
+        "yy "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:reinforced_deepslate"
+        },
+        "y": {
+          "item": "minecraft:sculk"
+        },
+        "x": {
+          "item": "ensculked:heart_catalyst"
+        },
+        "o": {
+          "item": "ensculked:player_soul"
+        }
+      },
+      "result": {
+        "item": "ensculked:claw_of_d"
+      }
+    }
+  },
+
+  "praetorian": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shaped",
+      "id": "ensculked:snatcher_recipe/praetorianrecipe",
+      "pattern": [
+        " ox",
+        "yxo",
+        "xy "
+      ],
+      "key": {
+        "y": {
+          "item": "minecraft:sculk"
+        },
+        "x": {
+          "item": "ensculked:heart_catalyst"
+        },
+        "o": {
+          "item": "ensculked:player_soul"
+        }
+      },
+      "result": {
+        "item": "ensculked:praetorian"
+      }
+    }
+  },
+
+  "hidden": true
+}

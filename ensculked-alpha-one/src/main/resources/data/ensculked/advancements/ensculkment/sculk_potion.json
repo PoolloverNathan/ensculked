@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "ensculked:sculk_potion"
+    },
+    "title": "The light at the end of the tunnel",
+    "description": "To drink this potion, one must have a biology not of a different world (must have chosen human origin).",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ensculked:ensculkment/catalyst_core",
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "ensculked:sculk_potion"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "potion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

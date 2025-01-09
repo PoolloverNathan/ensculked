@@ -1,0 +1,13 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:origin",
+      "origin": "ensculked:pact",
+      "layer": "ensculked:pact"
+    }
+  },
+  "name": "No betrayal",
+  "description": "Those who have made a pact with you cannot hurt you. It would be counter productive, wouldn't it?"
+}

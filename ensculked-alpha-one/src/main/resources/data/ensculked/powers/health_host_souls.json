@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_attribute",
+  "attribute": "minecraft:generic.max_health",
+  "modifier": {
+    "operation": "set_total",
+    "resource": "ensculked:souls",
+    "value": 0
+  },
+  "name": "Host: Evolve",
+  "description": "You start with half a heart. The more souls you have, the more max health you have."
+}
