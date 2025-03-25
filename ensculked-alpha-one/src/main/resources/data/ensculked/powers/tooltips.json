@@ -20,7 +20,7 @@
         "item": "ensculked:praetorian"
       }
     },
-    "text": "Hitting entities will inject sculk tumours into them, infecting them over time eventually turning them into infected."
+    "text": "Hitting entities will inject sculk tumours into them, eventually infecting them after a few minutes."
   },
 
   "hidden": true
