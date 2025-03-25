@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "ensculked:soul_book"
+    },
+    "title": "Feels like Hell.",
+    "description": "Obtain the Abilities to use a Pact.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "ensculked:ensculkment/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ensculked:soul_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "function": "ensculked:internalpact"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,3 +1,2 @@
-power revoke @s ensculked:accept_pact
+item replace entity @s weapon.mainhand with ensculked:player_soul
 origin set @s ensculked:pact ensculked:pact
-give @s ensculked:player_soul

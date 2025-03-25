@@ -1,3 +1,2 @@
-playsound block.sculk_shrieker.shriek master @s ~ ~ ~ 1 1 1
-advancement grant @s only ensculked:ensculkment/transformation
-origin set @s origins:origin ensculked:ensculked
+execute if score ensculked.dummy ensculked.ensculkedlimit matches 0 run function ensculked:transformaccept
+execute if score ensculked.dummy ensculked.ensculkedlimit matches 1 run title @s actionbar "It Rejects you"

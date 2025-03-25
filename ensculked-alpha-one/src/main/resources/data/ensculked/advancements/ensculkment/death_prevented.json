@@ -3,7 +3,7 @@
     "icon": {
       "item": "minecraft:sculk_sensor"
     },
-    "title": "Requiem",
+    "title": "Requiem of Thyself",
     "description": "Get your host destroyed.",
     "frame": "task",
     "show_toast": true,

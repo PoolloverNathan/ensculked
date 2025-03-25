@@ -5,7 +5,7 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "team join ensculked.ensculked @s"
+        "command": "function ensculked:ensculkedrefuse"
       }
     ]
   },

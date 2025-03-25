@@ -5,7 +5,7 @@
 
     "type": "apugli:entity_texture_overlay",
     "texture_location": "ensculked:textures/item/sculk_infected.png",
-    "render_original_model": false
+    "render_original_model": true
   },
 
   "spread": {

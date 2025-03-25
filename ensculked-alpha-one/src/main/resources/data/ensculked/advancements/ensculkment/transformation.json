@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:sculk"
     },
-    "title": "The darwin award",
-    "description": "Evolve past humanity.",
+    "title": "The Darwin Award",
+    "description": "Betray your Humanity.",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

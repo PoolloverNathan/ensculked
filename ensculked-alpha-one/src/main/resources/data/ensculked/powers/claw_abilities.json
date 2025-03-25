@@ -9,7 +9,7 @@
         {
           "type": "origins:add_velocity",
           "space": "local",
-          "z": 1,
+          "z": 3,
           "set": false
         },
         {

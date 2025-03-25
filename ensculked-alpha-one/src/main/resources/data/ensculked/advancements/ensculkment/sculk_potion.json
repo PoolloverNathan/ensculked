@@ -3,8 +3,8 @@
     "icon": {
       "item": "ensculked:sculk_potion"
     },
-    "title": "The light at the end of the tunnel",
-    "description": "To drink this potion, one must have a biology not of a different world (must have chosen human origin).",
+    "title": "Effigy of The Undead",
+    "description": "Create The Potion of Sculk.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

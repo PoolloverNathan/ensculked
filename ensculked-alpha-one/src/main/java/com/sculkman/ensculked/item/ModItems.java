@@ -1,6 +1,7 @@
 package com.sculkman.ensculked.item;
 
 import com.sculkman.ensculked.Ensculked;
+import com.sculkman.ensculked.item.custom.ClawItemClass;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
@@ -22,7 +23,7 @@ public class ModItems {
     public static final Item PLAYER_SOUL = registerItem("player_soul", new Item(new FabricItemSettings()));
     public static final Item SCULK_PILE = registerItem("sculk_pile", new Item(new FabricItemSettings()));
     public static final Item CLAW_OF_D = registerItem("claw_of_d",
-            new SwordItem(ModToolMaterials.ToolMaterials.CATALYST, 2, 0f, new FabricItemSettings().maxCount(1)));
+            new ClawItemClass(ModToolMaterials.ToolMaterials.CATALYST, -2, 0f, new FabricItemSettings().maxCount(1)));
     public static final Item PRAETORIAN = registerItem("praetorian",
             new SwordItem(ModToolMaterials.ToolMaterials.CATALYST, 6, -3.5f, new FabricItemSettings().maxCount(1)));
 
