@@ -42,6 +42,18 @@
       "type": "origins:status_bar_texture",
       "texture": "ensculked:textures/gui/icons.png"
   },
+  
+  "slow": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:movement_speed",
+      "operation": "multiply_base",
+      "value": -0.25
+    }
+  },
+  "slow_no_sprint": {
+    "type": "origins:prevent_sprinting"
+  },
 
   "name": "Host: Nonplayer",
   "description": "Since your host is not a player, some things may change, such as nametags not showing, different sounds. And so on..."
