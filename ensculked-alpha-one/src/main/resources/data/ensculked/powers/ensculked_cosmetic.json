@@ -54,6 +54,9 @@
   "slow_no_sprint": {
     "type": "origins:prevent_sprinting"
   },
+  "slow_no_swim": {
+    "type": "origins:ignore_water"
+  },
 
   "name": "Host: Nonplayer",
   "description": "Since your host is not a player, some things may change, such as nametags not showing, different sounds. And so on..."
