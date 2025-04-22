@@ -1,5 +1,7 @@
 package com.sculkman.ensculked;
 
+import com.sculkman.ensculked.block.ModBlocks;
+import com.sculkman.ensculked.effect.MobEffects;
 import com.sculkman.ensculked.item.ModItemGroups;
 import com.sculkman.ensculked.item.ModItems;
 import com.sculkman.ensculked.item.ModToolMaterials;
@@ -24,8 +26,9 @@ public class Ensculked implements ModInitializer {
 		// Proceed with mild caution
 		ModItemGroups.registerItemGroups();
 		ModItems.RegisterModItems();
-
+		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.ModifyLootTables();
+		MobEffects.registerEffects();
 
 		LOGGER.info("Hello Fabric world!");
 	}

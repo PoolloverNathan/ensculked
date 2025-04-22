@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Armorless Ensculked",
+    "attribute": "minecraft:generic.armor",
+    "value": -200,
+    "operation": "addition"
+  },
+  "name": "§3Mutation: Armorless",
+  "description": "§bYou obtain no defensive beneffits from armor. (armor stat capped at 0)"
+}

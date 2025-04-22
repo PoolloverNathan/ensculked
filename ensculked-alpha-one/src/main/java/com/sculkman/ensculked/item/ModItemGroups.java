@@ -1,6 +1,7 @@
 package com.sculkman.ensculked.item;
 
 import com.sculkman.ensculked.Ensculked;
+import com.sculkman.ensculked.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,6 +26,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CLAW_OF_D);
                         entries.add(ModItems.SCULK_PILE);
                         entries.add(ModItems.PRAETORIAN);
+                        entries.add(ModBlocks.KEYMIND);
+                        entries.add(ModItems.SCULK_MOUTH);
+                        entries.add(ModItems.MUTATIONMESSENGER);
                     }).build());
     public static void registerItemGroups() {
         Ensculked.LOGGER.info("Registering item groups for " + Ensculked.MOD_ID);

@@ -9,8 +9,17 @@
   "item.ensculked.claw_of_d": "Claw of Damocles",
   "item.ensculked.sculk_pile": "Pile of Sculk",
   "item.ensculked.praetorian": "Praetorian",
+  "item.ensculked.sculk_mouth": "Sculk Mouth",
+  "item.ensculked.mutation_messenger": "Messengarium",
 
   "itemgroup.ensculked": "Ensculked",
 
-  "sounds.ensculked.claw_of_d_swing": "Claw of Damocles slash"
+  "sounds.ensculked.claw_of_d_swing": "Claw of Damocles slash",
+
+  "block.ensculked.enveloped_console": "Console",
+  "block.ensculked.keymind": "Keymind",
+  "block.ensculked.soulstemlog": "Soulstem Log",
+
+  "effect.ensculked.bleed": "Famine",
+  "effect.ensculked.eidolon": "Eidolon"
 }

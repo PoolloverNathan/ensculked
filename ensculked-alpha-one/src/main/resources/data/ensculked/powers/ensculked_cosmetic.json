@@ -4,7 +4,7 @@
   "sculk_skin": {
 
     "type": "apugli:entity_texture_overlay",
-    "texture_location": "ensculked:textures/item/sculk_skin_regular.png",
+    "texture_location": "ensculked:textures/skin/sculk_skin_regular.png",
     "show_first_person": true,
     "render_original_model": false,
     "render_player_outer_layer": false,
@@ -16,31 +16,42 @@
 
   "movement_death": {
 
-  "type": "apugli:custom_death_sound",
-  "muted": true
+    "type": "apugli:custom_death_sound",
+    "muted": true
 
   },
   "movement_step": {
-  "type": "apugli:custom_footstep",
-  "sound": "minecraft:block.sculk.step"
+    "type": "apugli:custom_footstep",
+    "sound": "minecraft:block.sculk.step"
   },
   "movement_hurt": {
-  "type": "apugli:custom_hurt_sound",
-  "sound": "minecraft:block.sculk.spread"
+    "type": "apugli:custom_hurt_sound",
+    "sound": "minecraft:block.sculk.spread"
   },
   "prevent_label": {
-  "type": "apugli:prevent_label_render"
+    "type": "apugli:prevent_label_render"
   },
   "prevent_chat": {
     "type": "eggolib:prevent_key_use",
     "keys": [
       "key.chat",
       "key.command"
-    ]
+    ],
+    "condition": {
+      "type": "origins:equipped_item",
+      "inverted": true,
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "ensculked:sculk_mouth"
+        }
+      }
+    }
   },
   "gui": {
-      "type": "origins:status_bar_texture",
-      "texture": "ensculked:textures/gui/icons.png"
+    "type": "origins:status_bar_texture",
+    "texture": "ensculked:textures/gui/icons.png"
   },
 
   "name": "Host: Nonplayer",

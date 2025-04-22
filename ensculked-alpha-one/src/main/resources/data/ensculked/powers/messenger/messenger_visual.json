@@ -1,0 +1,39 @@
+{
+  "type": "origins:multiple",
+
+  "sculk_skin": {
+
+    "type": "apugli:entity_texture_overlay",
+    "texture_location": "ensculked:textures/skin/sculk_skin_messenger.png",
+    "show_first_person": true,
+    "render_original_model": false,
+    "render_player_outer_layer": false,
+    "condition": {
+      "type": "apugli:player_model_type",
+      "model_type": "default"
+    }
+  },
+
+  "movement_step": {
+    "type": "apugli:custom_footstep",
+    "sound": "minecraft:block.sculk.step",
+    "volume": 0.20,
+    "pitch": 1
+  },
+  "movement_hurt": {
+    "type": "apugli:custom_hurt_sound",
+    "sound": "minecraft:block.sculk.spread"
+  },
+  "gui": {
+    "type": "origins:status_bar_texture",
+    "texture": "ensculked:textures/gui/iconsmutated.png"
+  },
+  "fly": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "ensculked:textures/item/wings.png"
+  },
+
+  "name": "§3Mutation: Ensculked",
+  "description": "§bYour body feels significantly more different than usual."
+}

@@ -8,7 +8,7 @@
       "id": "ensculked:snatcher_recipe/snatcherrecipe",
       "pattern": [
         " ##",
-        "yx#",
+        "y #",
         "yy "
       ],
       "key": {
@@ -17,9 +17,6 @@
         },
         "y": {
           "item": "ensculked:catalyst_fragment"
-        },
-        "x": {
-          "item": "ensculked:player_soul"
         }
       },
       "result": {
@@ -100,6 +97,84 @@
       },
       "result": {
         "item": "ensculked:praetorian"
+      }
+    }
+  },
+  "keymind": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shaped",
+      "id": "ensculked:snatcher_recipe/keymindrecipe",
+      "pattern": [
+        "yxy",
+        "xyx",
+        "yxy"
+      ],
+      "key": {
+        "y": {
+          "item": "minecraft:sculk"
+        },
+        "x": {
+          "item": "ensculked:heart_catalyst"
+        }
+      },
+      "result": {
+        "item": "ensculked:keymind"
+      }
+    }
+  },
+  "sculkmouth": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shaped",
+      "id": "ensculked:snatcher_recipe/sculkmouthrecipe",
+      "pattern": [
+        "xyx",
+        " # ",
+        " # "
+      ],
+      "key": {
+        "y": {
+          "item": "ensculked:keymind"
+        },
+        "x": {
+          "item": "ensculked:warden_heart"
+        },
+        "#": {
+          "item": "minecraft:reinforced_deepslate"
+        }
+      },
+      "result": {
+        "item": "ensculked:sculk_mouth"
+      }
+    }
+  },
+  "mutationmessenger": {
+    "type": "origins:recipe",
+    "recipe": {
+      "type": "minecraft:crafting_shaped",
+      "id": "ensculked:snatcher_recipe/messengerrecipe",
+      "pattern": [
+        " y ",
+        "#x#",
+        " p "
+      ],
+      "key": {
+        "y": {
+          "item": "ensculked:keymind"
+        },
+        "x": {
+          "item": "ensculked:player_soul"
+        },
+        "#": {
+          "item": "ensculked:heart_catalyst"
+        },
+        "p": {
+          "item": "minecraft:feather"
+        }
+      },
+      "result": {
+        "item": "ensculked:mutation_messenger"
       }
     }
   },

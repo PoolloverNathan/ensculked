@@ -1,0 +1,74 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": -10,
+        "set": true
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 2,
+        "action": {
+          "type": "origins:explode",
+          "power": -3,
+          "destruction_type": "none",
+          "damage_self": false,
+          "create_fire": false
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 2,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:block.anvil.land master @s ~ ~ ~ 0.10 0.1 1"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 2,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:campfire_cosy_smoke ~ ~0.25 ~ 2.5 0 2.5 0.001 150 normal"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 2,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:sculk_soul ~ ~0.25 ~ 0.5 0 0.5 0.001 15 normal"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 2,
+        "action": {
+          "type": "origins:explode",
+          "power": 1,
+          "destruction_type": "none",
+          "damage_self": false,
+          "create_fire": false
+        }
+      }
+    ]
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.sneak",
+    "continuous": false
+  },
+  "condition": {
+    "type": "origins:fall_distance",
+    "comparison": ">=",
+    "compare_to": 0.01
+  },
+  "name": "§3Slam",
+  "description": "§bSlam into the ground. Quickly resetting your momentum."
+}

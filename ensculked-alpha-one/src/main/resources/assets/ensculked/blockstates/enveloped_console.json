@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ensculked:block/enveloped_console"
+    }
+  }
+}

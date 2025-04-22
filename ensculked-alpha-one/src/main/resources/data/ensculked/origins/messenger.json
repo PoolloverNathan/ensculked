@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "ensculked:messenger/messenger_visual",
+    "ensculked:messenger/messengerfalldamage",
+    "ensculked:messenger/messenger_slam",
+    "ensculked:messenger/messenger_dash",
+    "ensculked:messenger/messenger_soulfuel",
+    "ensculked:messenger/messenger_armorless"
+  ],
+  "icon": "ensculked:player_soul",
+  "order": 10,
+  "impact": 3,
+  "unchoosable": true,
+  "name": "§1Messenger",
+  "description": "§bEnveloped, Assimilated, Devoured. Sightless, deprivated of senses. Yet, it is you whom spread his message. The calm before the Storm. It is you, whom signal the storm."
+}

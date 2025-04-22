@@ -1,0 +1,42 @@
+{
+  "type": "origins:action_on_item_use",
+  "trigger": "instant",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:origin ensculked:messenger"
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:block",
+          "params": "minecraft:sculk"
+        },
+        "count": 16,
+        "speed": 0.2,
+        "force": false,
+        "spread": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      }
+    ]
+  },
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "ensculked:mutation_messenger"
+    }
+  }
+}

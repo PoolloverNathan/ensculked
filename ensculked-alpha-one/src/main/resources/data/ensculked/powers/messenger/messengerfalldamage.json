@@ -1,0 +1,39 @@
+{
+  "type": "origins:multiple",
+  "nofalldamage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:is_fall"
+    },
+    "modifier": {
+      "name": "Immune to fall damage ensculked",
+      "operation": "add_base_early",
+      "value": -100
+    }
+  },
+  "highspeed": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Speed Increase Ensculked",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.14,
+      "operation": "addition"
+    }
+  },
+  "highjump": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "addition",
+      "value": 0.6
+    },
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.warden.heartbeat",
+      "volume": 0.35,
+      "pitch": 1.75
+    }
+  },
+  "name": "§3Mutation: Aerodynamics",
+  "description": "§bYour body is unreasonably light, squishy and fitted for extremely fast movement. Doesn't take any fall damage. Jumps higher and walks faster."
+}

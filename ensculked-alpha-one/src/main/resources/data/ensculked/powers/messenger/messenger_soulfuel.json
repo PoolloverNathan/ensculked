@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+
+  "noregen": {
+    "type": "origins:disable_regen"
+  },
+  "nofood": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  },
+  "bloodthirsty": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:heal",
+          "amount": 2.0
+        },
+        {
+          "type": "origins:feed",
+          "food": 2,
+          "saturation": 2
+        }
+      ]
+    }
+  },
+
+  "name": "§3Mutation: Soul is Fuel",
+  "description": "§bYou cannot heal or eat naturally. Instead, you must hit to regain health and food."
+}

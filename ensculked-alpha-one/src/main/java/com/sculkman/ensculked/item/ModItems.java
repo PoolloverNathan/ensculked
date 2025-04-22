@@ -26,6 +26,8 @@ public class ModItems {
             new ClawItemClass(ModToolMaterials.ToolMaterials.CATALYST, -2, 0f, new FabricItemSettings().maxCount(1)));
     public static final Item PRAETORIAN = registerItem("praetorian",
             new SwordItem(ModToolMaterials.ToolMaterials.CATALYST, 6, -3.5f, new FabricItemSettings().maxCount(1)));
+    public static final Item SCULK_MOUTH = registerItem("sculk_mouth", new Item(new FabricItemSettings()));
+    public static final Item MUTATIONMESSENGER = registerItem("mutation_messenger", new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {

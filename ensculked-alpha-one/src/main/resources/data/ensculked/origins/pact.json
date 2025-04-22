@@ -4,7 +4,8 @@
     "ensculked:tooltips",
     "ensculked:claw_abilities",
     "ensculked:team_join",
-    "ensculked:praetorian_abilities"
+    "ensculked:praetorian_abilities",
+    "ensculked:messenger/messenger_book"
   ],
   "icon": "ensculked:soul_book",
   "order": 10,

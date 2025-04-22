@@ -10,6 +10,7 @@
 		"ensculked:prevent_features",
 		"ensculked:ensculked_cosmetic",
 		"ensculked:pact_invlunerable",
+		"ensculked:eidolonification",
 		"ensculked:tooltips",
 		"ensculked:claw_abilities",
 		"ensculked:prevents",
@@ -20,6 +21,6 @@
 	"order": 10,
 	"impact": 3,
 	"unchoosable": true,
-	"name": "Ensculked",
-	"description": "Humans whom have torn out their own soul and gifted with the power to travel between bodies, The ensculked do not actually have a physical form. Instead, they possess sculk to form a body. Note: Made for multiplayer, some features might not work for singleplayer."
+	"name": "§1Ensculked",
+	"description": "§bHumans whom have torn out their own soul and gifted with the power to travel between bodies, The ensculked do not actually have a physical form. Instead, they possess sculk to form a body. Note: Made for multiplayer, some features might not work for singleplayer."
 }

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "ensculked:mutation_messenger"
+    },
+    "title": "SOUL IS FUEL",
+    "description": "Obtain the Messengarium",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ensculked:ensculkment/chartered",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ensculked:mutation_messenger"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [],
+  "sends_telemetry_event": true
+}
