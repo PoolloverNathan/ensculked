@@ -1,0 +1,12 @@
+{
+  "type": "origins:overlay",
+  "texture": "ensculked:textures/skin/parryoverlay.png",
+  "strength": 0.1,
+  "red": 1.0,
+  "green": 1.0,
+  "blue": 1.0,
+  "draw_mode": "texture",
+  "draw_phase": "above_hud",
+  "hide_with_hud": false,
+  "visible_in_third_person": false
+}

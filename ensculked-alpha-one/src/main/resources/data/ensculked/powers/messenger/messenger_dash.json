@@ -5,14 +5,9 @@
     "actions": [
       {
         "type": "origins:add_velocity",
-        "space": "local",
+        "space": "velocity_horizontal_normalized",
         "set": "true",
-        "z": 2,
-        "y": 0
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "particle minecraft:flash ^ ^ ^-2"
+        "z": 3
       }
     ]
   },
@@ -26,5 +21,5 @@
     "continuous": false
   },
   "name": "§3Dash",
-  "description": "§bCall upon the power of the Ensculked to relocate the reality behind your legs to create a empty void that is immediatly filled up by air, propelling you forward."
+  "description": "§bDash forward in a Line. Cannot dash vertically"
 }

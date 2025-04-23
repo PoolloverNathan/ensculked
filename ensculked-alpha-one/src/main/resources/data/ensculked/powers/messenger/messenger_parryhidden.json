@@ -1,0 +1,60 @@
+{
+    "type": "origins:modify_damage_taken",
+    "attacker_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:add_velocity",
+          "space": "velocity_horizontal_normalized",
+          "set": "true",
+          "z": -3
+        },
+        {
+          "type": "origins:damage",
+          "amount": 5,
+          "damage_type": "minecraft:wither"
+        }
+      ]
+    },
+    "self_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "power grant @s ensculked:messenger/messenger_parryoverlay"
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s ensculked:messenger/messenger_parryoverlay"
+          }
+        },
+        {
+          "type": "origins:heal",
+          "amount": 5
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:block.anvil.land player @a[distance=..25] ~ ~ ~ 1 1.8 1"
+        },
+        {
+          "type": "origins:swing_hand",
+          "hand": "MAIN_HAND"
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Ensculked Messenger Parry Immunity",
+      "operation": "multiply_total",
+      "value": -1
+    },
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:living"
+      }
+    },
+  "hidden": true
+}

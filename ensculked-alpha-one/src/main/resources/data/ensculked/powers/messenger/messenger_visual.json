@@ -33,6 +33,9 @@
     "render_elytra": true,
     "texture_location": "ensculked:textures/item/wings.png"
   },
+  "fly_prevent": {
+    "type": "origins:prevent_elytra_flight"
+  },
 
   "name": "§3Mutation: Ensculked",
   "description": "§bYour body feels significantly more different than usual."

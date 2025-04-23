@@ -4,10 +4,11 @@
     "ensculked:messenger/messengerfalldamage",
     "ensculked:messenger/messenger_slam",
     "ensculked:messenger/messenger_dash",
+    "ensculked:messenger/messenger_parryactive",
     "ensculked:messenger/messenger_soulfuel",
     "ensculked:messenger/messenger_armorless"
   ],
-  "icon": "ensculked:player_soul",
+  "icon": "ensculked:mutation_messenger",
   "order": 10,
   "impact": 3,
   "unchoosable": true,
