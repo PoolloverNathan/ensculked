@@ -62,6 +62,12 @@
       "value": -0.25
     }
   },
+  "prevent_breathing": {
+    "breathable_block_condition": {
+      "type": "origins:constant",
+      "value": true
+    }
+  },
 
   "name": "Host: Nonplayer",
   "description": "Since your host is not a player, some things may change, such as nametags not showing, different sounds. And so on..."
